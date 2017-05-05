@@ -60,8 +60,10 @@
                 const backItem = this.getBaseItem(item);
                 this.tmpItem = backItem;
                 this.emitUpdate([backItem]);
+
                 if (item.children && item.children.length){
                     this.sublist = item.children;
+//                    this.$dispatch('on-result-change', false, this.changeOnSelect, fromInit);
                     this.dispatch('Cascader', 'on-result-change', {
                         lastValue: false,
                         changeOnSelect: this.changeOnSelect,
@@ -69,6 +71,7 @@
                     });
                 } else {
                     this.sublist = [];
+//                    this.$dispatch('on-result-change', true, this.changeOnSelect, fromInit);
                     this.dispatch('Cascader', 'on-result-change', {
                         lastValue: true,
                         changeOnSelect: this.changeOnSelect,

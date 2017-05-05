@@ -1,17 +1,17 @@
 // es6 polyfill
 import 'core-js/fn/array/find-index';
 
-import Affix from './components/affix';
-import Alert from './components/alert';
+// import Affix from './components/affix';
+// import Alert from './components/alert';
 import BackTop from './components/back-top';
-import Badge from './components/badge';
-import Breadcrumb from './components/breadcrumb';
+// import Badge from './components/badge';
+// import Breadcrumb from './components/breadcrumb';
 import Button from './components/button';
-import Card from './components/card';
-import Carousel from './components/carousel';
-import Cascader from './components/cascader';
+// import Card from './components/card';
+// import Carousel from './components/carousel';
+// import Cascader from './components/cascader';
 import Checkbox from './components/checkbox';
-import Circle from './components/circle';
+// import Circle from './components/circle';
 import Collapse from './components/collapse';
 import DatePicker from './components/date-picker';
 import Dropdown from './components/dropdown';
@@ -29,40 +29,40 @@ import Poptip from './components/poptip';
 import Progress from './components/progress';
 import Radio from './components/radio';
 import Rate from './components/rate';
-import Slider from './components/slider';
+// import Slider from './components/slider';
 import Spin from './components/spin';
 import Steps from './components/steps';
 import Switch from './components/switch';
 import Table from './components/table';
 import Tabs from './components/tabs';
 import Tag from './components/tag';
-import Timeline from './components/timeline';
+// import Timeline from './components/timeline';
 import TimePicker from './components/time-picker';
 import Tooltip from './components/tooltip';
 import Transfer from './components/transfer';
-import Tree from './components/tree';
-import Upload from './components/upload';
+// import Tree from './components/tree';
+// import Upload from './components/upload';
 import { Row, Col } from './components/grid';
 import { Select, Option, OptionGroup } from './components/select';
 import locale from './locale';
 
 const iview = {
-    Affix,
-    Alert,
+    // Affix,
+    // Alert,
     BackTop,
-    Badge,
-    Breadcrumb,
-    BreadcrumbItem: Breadcrumb.Item,
+    // Badge,
+    // Breadcrumb,
+    // BreadcrumbItem: Breadcrumb.Item,
     iButton: Button,
     Button,
     ButtonGroup: Button.Group,
-    Card,
-    Carousel,
-    CarouselItem: Carousel.Item,
-    Cascader,
+    // Card,
+    // Carousel,
+    // CarouselItem: Carousel.Item,
+    // Cascader,
     Checkbox,
     CheckboxGroup: Checkbox.Group,
-    iCircle: Circle,
+    // iCircle: Circle,
     DatePicker,
     Dropdown,
     DropdownItem: Dropdown.Item,
@@ -85,7 +85,7 @@ const iview = {
     Submenu: Menu.Sub,
     Message,
     Modal,
-    Notice,
+    // Notice,
     Option: Option,
     iOption: Option,
     OptionGroup,
@@ -100,7 +100,7 @@ const iview = {
     Row,
     Select,
     iSelect: Select,
-    Slider,
+    // Slider,
     Spin,
     Step: Steps.Step,
     Steps,
@@ -111,13 +111,13 @@ const iview = {
     Tabs: Tabs,
     TabPane: Tabs.Pane,
     Tag,
-    Timeline,
-    TimelineItem: Timeline.Item,
+    // Timeline,
+    // TimelineItem: Timeline.Item,
     TimePicker,
     Tooltip,
     Transfer,
-    Tree,
-    Upload
+    // Tree,
+    // Upload
 };
 
 const install = function (Vue, opts = {}) {

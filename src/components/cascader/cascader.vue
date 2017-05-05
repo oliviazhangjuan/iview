@@ -172,7 +172,8 @@
                 }
             }
         },
-        created () {
+        mounted () {
+            this.updateSelected(true);
             this.$on('on-result-change', (params) => {
                 // lastValue: is click the final val
                 // fromInit: is this emit from update value
@@ -199,9 +200,6 @@
                     this.handleClose();
                 }
             });
-        },
-        mounted () {
-            this.updateSelected(true);
         },
         watch: {
             visible (val) {
