@@ -1,5 +1,5 @@
 ## Explain
-This Project is forked from ==[iView](https://github.com/iview/iview)==, in order to fit [v-push-manage](http://10.0.12.104/jason.liu/v-push-manage);
+This Project is forked from [==iView==](https://github.com/iview/iview), in order to fit [v-push-manage](http://10.0.12.104/jason.liu/v-push-manage);
 
 ## ChangeLog
 + Changed colors;
