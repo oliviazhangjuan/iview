@@ -4,11 +4,11 @@ import 'core-js/fn/array/find-index';
 // import Affix from './components/affix';
 // import Alert from './components/alert';
 import BackTop from './components/back-top';
-// import Badge from './components/badge';
+import Badge from './components/badge';
 // import Breadcrumb from './components/breadcrumb';
 import Button from './components/button';
-// import Card from './components/card';
-// import Carousel from './components/carousel';
+import Card from './components/card';
+import Carousel from './components/carousel';
 // import Cascader from './components/cascader';
 import Checkbox from './components/checkbox';
 // import Circle from './components/circle';
@@ -33,7 +33,7 @@ import Rate from './components/rate';
 import Spin from './components/spin';
 import Steps from './components/steps';
 import Switch from './components/switch';
-import Table from './components/table';
+// import Table from './components/table';
 import Tabs from './components/tabs';
 import Tag from './components/tag';
 // import Timeline from './components/timeline';
@@ -50,15 +50,15 @@ const iview = {
     // Affix,
     // Alert,
     BackTop,
-    // Badge,
+    Badge,
     // Breadcrumb,
     // BreadcrumbItem: Breadcrumb.Item,
     iButton: Button,
     Button,
     ButtonGroup: Button.Group,
-    // Card,
-    // Carousel,
-    // CarouselItem: Carousel.Item,
+    Card,
+    Carousel,
+    CarouselItem: Carousel.Item,
     // Cascader,
     Checkbox,
     CheckboxGroup: Checkbox.Group,
@@ -106,8 +106,8 @@ const iview = {
     Steps,
     // Switch,
     iSwitch: Switch,
-    iTable: Table,
-    Table,
+    // iTable: Table,
+    // Table,
     Tabs: Tabs,
     TabPane: Tabs.Pane,
     Tag,
